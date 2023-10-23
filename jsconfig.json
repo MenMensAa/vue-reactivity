@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es6",
+    "resolveJsonModule": true,
+    "lib": ["esnext", "dom"]
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*", "demo/**/*", "test/**/*"]
+}
